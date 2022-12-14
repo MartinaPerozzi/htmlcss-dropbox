@@ -259,10 +259,11 @@ h5{
     font-size:1rem;
 }
 /* column */
-#enterprise{
+.enterprise{
     margin-top:1rem;
     display: flex;
     justify-content: space-between;
+    gap:2.5rem;
 }
 .ent{
     margin-top: 0;
@@ -272,4 +273,49 @@ h5{
     flex-direction: column;
     gap:1rem;
     width:60%;
+}
+.right{
+    width:40%;
+}
+/* partnership section */
+.partnership{
+    border:0px;
+    margin-top:2rem;
+}
+.enterprise{
+    padding:0rem;
+}
+.right>h3, p{
+    margin-bottom: 1.5rem;;
+}
+.special{
+    border:1px solid var(--dark);
+    background-color: white;
+    max-width:9rem;
+}
+.special>a{
+    color:var(--color-font);
+}
+#no-padding{
+    padding:0rem;
+    gap:3rem;
+}
+/* Dropbox Business section*/
+.row{
+    display:flex;
+    width:100%;
+    max-width:70rem;
+    justify-content: center;
+    margin:auto;
+    gap:4rem;
+}
+h3{
+    font-family: var(--font-fam);
+    color:var(--dark);
+    font-size: 1.2rem;
+    padding:1rem 0rem;
+    line-height: 1.8rem;
+}
+.bus>h2{
+    margin-bottom: 4rem;
 }
