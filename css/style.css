@@ -266,6 +266,7 @@ h5{
     color:var(--color-button);
     font-size:1rem;
 }
+/* Enterprise section */
 /* Column */
 .enterprise{
     margin-top:1rem;
@@ -284,6 +285,10 @@ h5{
 }
 .right{
     width:40%;
+}
+.right .button-diff{
+    margin-top:2rem;
+    text-align: right;
 }
 /* Partnership section */
 .partnership{
