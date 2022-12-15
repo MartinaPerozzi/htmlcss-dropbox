@@ -9,7 +9,10 @@
 	--white: #f0f0f0;
 	--dark:#363636;
 	}
-	
+/* BACKGROUNDS */
+.bg{
+    background-color: var(--bg-color);
+}
 /*Others  */
 .container-big {
 	width:100%;
@@ -24,7 +27,12 @@
 .no-mt{
 	margin-top:0;
 }
-
+.w7{
+    width:70%;
+}
+.w3{
+    width:33%;
+}
 /* BUTTON*/
 .btn.start>a{
 	background-color: var(--color-button);
@@ -58,6 +66,7 @@ a, p, cite{
 p, cite{
     font-size: 0.9rem;
     line-height:1.2rem;
+	font-style: normal;
 }
 
 
