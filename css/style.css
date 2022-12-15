@@ -411,3 +411,64 @@ h3{
 .faq>.dropdown-faq:last-child{
     border-bottom:1px solid var(--color-font);
 }
+
+/* FOOTER */
+.container-big{
+    background-color: rgb(0, 0, 0);
+    padding:3rem 10rem;
+    margin-top:8rem;
+}
+.footer-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:7rem;
+    color:white;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    padding:0rem 6rem;
+}
+footer li{
+    list-style-type: none;
+    line-height: 2.5rem;
+}
+.footer-container a{
+   color:white;
+}
+
+footer h3{
+    color:var(--white)
+}
+.language{
+    margin-top: 5rem;
+    color:grey;
+}
+.language select{
+    background-color: black;
+    border:none;
+    color: var(--color-font);
+    appearance: none;
+    width:50px;
+
+}
+.language>i{
+    font-size: 0.9rem;
+    padding:0rem 0.5rem 0rem 0rem;
+}
+.language::after{
+    content:'▲';
+    font-size:0.6rem;
+    color: var(--color-font);
+}
+#hr{
+    border-bottom:1px solid white;
+    padding-bottom: 3rem;
+}
+.bar{
+    justify-content: flex-start;
+}
+
+
+
+
+
