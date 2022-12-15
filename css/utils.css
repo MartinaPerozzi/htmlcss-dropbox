@@ -1,9 +1,13 @@
 /* Utils */
+html{
+scroll-behavior: smooth; 
+}
 /* Root */
 :root{
 	--bg-color: #b4d0e7;
 	--color-font: #5c5c5c;
 	--color-button: #0061ff;
+	--color-button-hover: #287aff;
 	--size-font: 0.9rem;
 	--font-fam: sans-serif;
 	--white: #f0f0f0;
@@ -27,6 +31,17 @@
 .no-mt{
 	margin-top:0;
 }
+.no-pd{
+	padding:0;
+}
+/* button */
+.mt3{
+	margin: 0.3rem;
+}
+.mt-b2{
+	margin-top: 2rem;
+}
+
 .w7{
     width:70%;
 }
@@ -48,6 +63,7 @@
 .button{
     background-color:var(--color-button);
     padding:0.3rem 1rem;
+	text-align: center;
 }
 
 .button a{
