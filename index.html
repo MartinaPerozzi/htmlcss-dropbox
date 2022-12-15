@@ -14,55 +14,67 @@
 </head>
 
 <body>
+<!-- HEADER -->
 	<header>
 		<div class="header-container">
 
 			<div class="header-left">
 				<img id="logo" src="img/logo-small.png" alt="Logo">
-				<span><a href="#">Perché Dropbox</a></span>
-				<span><a href="#">Funzioni</a></span>
-				<span><a href="#">Piani e Prezzi</a></span>
+				<nav>
+					<ul>
+						<li><a href="#">Perché Dropbox</a></li>
+						<li><a href="#">Funzioni</a></li>
+						<li><a href="#">Piani e Prezzi</a></li>
+					</ul>
+				</nav>
 			</div>
 			
 			<div class="header-right">
-				<span><a href="#">Supporto</a></span>
-				<span><a href="#">Contatta l'ufficio vendite</a></span>
-				<span><a href="#">Accedi</a></span>
-				<span class="button"><a href="#">Inizia</a></span>
+				<nav>
+					<ul>
+						<li><a href="#">Supporto</a></li>
+						<li><a href="#">Contatta l'ufficio vendite</a></li>
+						<li><a href="#">Accedi</a></li>
+						<li class="btn start"><a href="#">Inizia</a></li>
+					</ul>
+				</nav>
+				
+				
 			</div>
 
 		</div>
 	</header>
-
+		<!-- Jumbotron -->
 	<section class="jumbotron">
-		<div>
+		<div class="container">
 			<h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-		</div>
-		<div class="jumbotron-container">
-			<div class="text">
-				<p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: é un modo intelligente e integrato per ottimizzare il flusso del lavoro esistente.</p>
-				<div class="button-diff"><a href="#"> Inizia la tua prova gratuita</a></div>
-				<div>Annulla in qualsiasi momento</div>
-				<a href="#business-plan"></a>
-			</div>
-			<div class="images">
-				<img src="img/jumbo.png" alt="Jumbotron image">
+		
+			<div class="jumbotron-container">
+				<div class="text w3">
+					<p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: é un modo intelligente e integrato per ottimizzare il flusso del lavoro esistente.</p>
+					<div class="btn"><a href="#"> Inizia la tua prova gratuita</a></div>
+					<div>Annulla in qualsiasi momento</div>
+					<a href="#business-plan"></a>
+				</div>
+				<div class="images w7">
+					<img src="img/jumbo.png" alt="Jumbotron image">
+				</div>
 			</div>
 		</div>
 		
 
 	</section>
-
+<!-- MAIN -->
 	<main>
-		<!-- Plan section -->
+		<!-- Business Plan section -->
 		<section class="column">
-			<a id="business-plan"><h2> Trova il piano business che fa per te</h2></a>
+			<h2> Trova il piano business che fa per te</h2>
 			<div class="checkbox">
 				<span> Fatturazione mensile</span>
 				<span> Fatturazione annuale</span>
 			</div>
 
-			<div class="business-plans">
+			<div class="business-plan">
 				<div class="plan">
 					<span id="one"> Singolo</span>
 					<h3>Professional</h3>
@@ -76,11 +88,14 @@
 						<div class="button"><a href="#"> Prova gratis per 30 giorni</a></div>
 						<div><span>oppure</span> <a href="#">acquista ora</a></div>
 					</div>
-					<div class="plan-points">
+					<section class="plan-points">
 						<h5>Punti Salienti del piano</h5>
-						<div class="point"> Invia file fino a 100 GB con Dropbox Transfert</div>
-						<div class="point"> Cartelle offline su dispositivi mobili</div>
-					</div>
+						<ul>
+							<li class="point"> Invia file fino a 100 GB con Dropbox Transfert</li>
+							<li class="point"> Cartelle offline su dispositivi mobili</li>
+						</ul>
+					</section>
+					
 
 				</div>
 
@@ -91,7 +106,7 @@
 					/utente/mese</div>
 					<!--  -->
 					<div class="features">
-						<div class="users-many"> 3 o più utenti</div>
+						<div class="team"> 3 o più utenti</div>
 						<div class="space"> Tutto lo spazio di cui ha bisogno il tuo team</div>
 						<div class="function"> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</div>
 						<div class="button"><a href="#"> Prova gratis per 30 giorni</a></div>
@@ -99,11 +114,13 @@
 					</div>
 					<div class="plan-points">
 						<h5>Punti Salienti del piano</h5>
-						<div class="point"> Nessun limite di spazio per i file</div>
-						<div class="point"> Cartelle offline su dispositivi mobili</div>
-						<div class="point"> Risparmio del 50% rispetto alle iscrizioni singole</div>
-						<div class="point"> Possibilità di inserire nuovi membri del team</div>
-						<div class="point"> Gestione dei permessi in base ai ruoli</div>
+						<ul>
+							<li class="point"> Nessun limite di spazio per i file</li>
+							<li class="point"> Cartelle offline su dispositivi mobili</li>
+							<li class="point"> Risparmio del 50% rispetto alle iscrizioni singole</li>
+							<li class="point"> Possibilità di inserire nuovi membri del team</li>
+							<li class="point"> Gestione dei permessi in base ai ruoli</li>
+						</ul>
 					</div>
 
 				</div>
@@ -123,9 +140,11 @@
 					</div>
 					<div class="plan-points">
 						<h5>Punti Salienti del piano</h5>
-						<div class="point"> Cartelle offline su dispositivi mobile</div>
-						<div class="point"> Servizio assistenza 24/h</div>
-						<div class="point"> Possibilità di personalizzazione totale</div>
+						<ul>
+							<li class="point"> Cartelle offline su dispositivi mobile</li>
+							<li class="point"> Servizio assistenza 24/h</li>
+							<li class="point"> Possibilità di personalizzazione totale</li>
+						</ul>
 					</div>
 
 				</div>
@@ -134,20 +153,20 @@
 		
 		<!-- Enterprise section -->
 
-		<section class="column ent">
+		<section class="column no-mt">
 			<div class=sales>
 				<div class="plan">
 					<span class="all"> Team</span>
 				    <div class="enterprise">
 						
-						<div class="left">
+						<div class="w7">
 							<h3>Enterprise</h3>
 							<h5>Contatta l'ufficio vendite per i prezzi</h5>
 							<div>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</div>
 						</div>
 						<!--  -->
-						<div class="right">
-							<div class="button-diff"> <a href="#">Contatta l'ufficio vendite</a></div>
+						<div class="w3">
+							<div class="btn"> <a href="#">Contatta l'ufficio vendite</a></div>
 						</div>
 					</div>
 
@@ -160,19 +179,19 @@
 
 		<!-- Partnership section -->
 
-		<section class="column ent">
+		<section class="column no-mt">
 			
 				<div class="plan partnership">
 				    <div id="no-padding" class="enterprise">
 						
-						<div class="left">
+						<div class="w7">
 							<img src="img/partner.png" alt="partnership image">
 						</div>
 						<!--  -->
-						<div class="right">
+						<div class="w3">
 							<h3>Entra in contatto con un partner Dropbox</h3>
-							<p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gesyione e supporto continui:</p>
-							<div class="button special"> <a href="#">Trova un partner</a></div>
+							<p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gesyione e supporto continui.</p>
+							<div class="btn special"> <a href="#">Trova un partner</a></div>
 						</div>
 					</div>
 
@@ -328,7 +347,7 @@
 		<div class="bg">
 			<section class="db-500 demo">
 				<h2>Porta Dropbox Business nella tua azienda. </h2>
-				<div class="button-type"><a href="#">Inizia la tua prova gratuita</a></div>
+				<div><a href="#">Inizia la tua prova gratuita</a></div>
 			</section>
 		</div>
 

@@ -1,10 +1,67 @@
 /* Utils */
-
-.container {
-	max-width: 1200px;
+/* Root */
+:root{
+	--bg-color: #b4d0e7;
+	--color-font: #5c5c5c;
+	--color-button: #0061ff;
+	--size-font: 0.9rem;
+	--font-fam: sans-serif;
+	--white: #f0f0f0;
+	--dark:#363636;
+	}
+	
+/*Others  */
+.container-big {
+	width:100%;
 	margin: 0 auto;
 }
+	
+.column{
+    width:100%;
+    max-width: 55rem;
+    margin:6rem auto 2rem;
+}
+.no-mt{
+	margin-top:0;
+}
 
+/* BUTTON*/
+.btn.start>a{
+	background-color: var(--color-button);
+	padding:0.3rem 0.8rem;
+	color: var(--white)
+}
+.btn>a{
+	background-color: var(--color-button);
+	padding:0.5rem 1rem;
+	color: var(--white)
+}
+
+.button{
+    background-color:var(--color-button);
+    padding:0.3rem 1rem;
+}
+
+.button a{
+    color:var(--white);
+}
+
+
+/* Text */
+a, p, cite{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:var(--color-font);
+    font-size:var(--size-font)  
+}
+
+p, cite{
+    font-size: 0.9rem;
+    line-height:1.2rem;
+}
+
+
+/* Others */
 .clearfix::after {
 	content: '';
 	clear: both;
