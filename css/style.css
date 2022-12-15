@@ -85,7 +85,7 @@ h2{
     font-size: var(--size-font);
     color: var(--color-font);
 }
-/*  */
+/* Plans */
 .business-plan{
     display: flex;
     justify-content: space-between;
@@ -121,7 +121,7 @@ h2{
 /* Long Buttons */
 .features>.button{
     text-align: center;
-    margin:2rem 0rem 1rem;
+    margin:2.7rem 0rem 1rem;
 }
 .features div:last-child>a{
     text-decoration: underline;
@@ -146,6 +146,9 @@ h5{
 .users,.space,.function,.point,.users-many{
     line-height: 1.2rem;
     margin-top: 0.8rem;
+    padding-left:2px;
+    margin-bottom:1rem;
+    line-height:1.4rem;
 }
 .space,.function,.users-many{
     display: flex;
