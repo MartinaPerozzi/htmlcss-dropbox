@@ -9,6 +9,7 @@
     position: fixed;
     z-index:1; 
     background-color: white;  
+    min-width:1200px;
 }
 .header-container li:not(.btn){
     padding:0.8rem;
@@ -22,14 +23,10 @@ header ul, header li{
     display:flex;
     align-items: center;
 }
-#logo{
-    margin-right:1rem;
-}
-
 /* JUMBOTRON */
 .jumbotron{
     padding:8rem 3rem 0rem;
-    height:42rem;
+    height:43rem;
 }
 .jumbotron-container{
     width:100%;
@@ -48,9 +45,7 @@ h1{
     font-size: 4.5rem;
     font-family: var(--font-fam);  
     line-height: 5rem;
-}
-.text>p{
-    margin-bottom:2rem;
+    margin-bottom:1rem;
 }
 
 .text>div{
@@ -88,25 +83,19 @@ h2{
 /* Plans */
 .business-plan{
     display: flex;
-    justify-content: space-between;
-    width:100%;
-    max-width:55rem;
     gap:2.5rem;
-    margin:2rem auto;
+    margin:3rem auto;
 }
 .plan{
     width:100%;
     border:0.1rem solid #b6b6b6;
-    padding:1rem 0rem;
+    padding:0.8rem 0rem;
 }
 .plan>span:first-child{
     width:100%;
     display:inline-block;
     border-bottom: 0.1rem solid #b6b6b6;
     text-align: center;
-    font-family: var(--font-fam);
-    color: var(--color-font);
-    font-size: var(--size-font);
     line-height: 0.8rem;
 }
 .plan>*:not(first-child){
@@ -118,10 +107,10 @@ h2{
     font-size: var(--size-font);
     line-height: 1.5rem;
 }
-/* Long Buttons */
+/* Features Buttons */
 .features>.button{
     text-align: center;
-    margin:2.7rem 0rem 1rem;
+    margin:2.7rem 0rem 1.8rem;
 }
 .features div:last-child>a{
     text-decoration: underline;
@@ -237,9 +226,7 @@ h5{
 .enterprise{
     margin-top:1rem;
     display: flex;
-    justify-content: space-between;
-    padding:0rem;
-    gap:3rem;
+    gap:2rem;
 }
 .enterprise h3{
     margin-top:0rem;
@@ -249,12 +236,12 @@ h5{
     margin-top: 2rem;
     margin-bottom: 0rem;
 }
-
-
+.enterprise>.w30{
+    padding-left:2rem;
+}
 /* Partnership section */
 .partnership{
     border:0px;
-    margin-top:2rem;
 }
 .right>h3, p{
     margin-bottom: 1.5rem;;
@@ -273,13 +260,14 @@ h5{
 .partnership .w3{
     padding-right: 1rem;
 }
+.partnership p{
+    margin-top: 0.8rem;
+}
+
 /* Dropbox Business section*/
 .row{
     display:flex;
-    width:100%;
     max-width:70rem;
-    justify-content: center;
-    margin:0;
     gap:4rem;
 }
 h3{
@@ -289,9 +277,7 @@ h3{
     padding:1rem 0rem;
     line-height: 1.8rem;
 }
-.bus>h2{
-    margin-bottom: 4rem;
-}
+
 /* Mini-section 500.000 team*/
 .db-500{
     max-width:55rem;
@@ -312,21 +298,18 @@ h3{
 .company{
     display: flex;
     width:100%;
-    margin:auto;
-    justify-content: center;
     gap:1rem;
     background-color: rgb(223, 223, 223);;
 }
 
 .logos{
     gap: 0rem;
-    padding:0rem;
 }
 .square>img{
     filter:invert();
 }
 
-/* logo backround */
+/* logo background */
 .square{
     width:50%;
     /* aspect-ratio: 1; */
@@ -374,8 +357,8 @@ h3{
 .center{
     margin-top: 2rem;
 }
-/* Mini-section (2)*/
 
+/* Mini-section (2)*/
 .demo{
     flex-direction: row;
     margin:0rem auto;
@@ -392,13 +375,16 @@ h3{
     color:#61082b;
     line-height: 3rem;
 }
-/* F-A-Q */
+/* F.A.Q. */
 .dropdown-faq{
     border-top:1px solid var(--color-font);
     padding:2rem 0rem;
     font-family: var(--font-fam);
     color: var(--dark);
     font-weight: bold;
+}
+.faq>.dropdown-faq:last-child{
+    border-bottom:1px solid var(--color-font);
 }
 .dropdown::after{
     content:'☟';
@@ -415,35 +401,26 @@ h3{
     right:-17px;
     background-color: var(--bg-color);
     width: 880px;
-    height:30px;
     z-index: 1;
     font-size:0.9rem;
     padding:0.8rem;
 }
-.dropdown-content div {
-    display: block;
-}
-.dropdown-content div:hover {
-    background-color: white;
-}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.faq>.dropdown-faq:last-child{
-    border-bottom:1px solid var(--color-font);
-}
 
 /* FOOTER */
-.container-big{
+.container-bg{
     background-color: rgb(0, 0, 0);
-    padding:3rem 10rem;
+    padding:3rem 0rem;
     margin-top:8rem;
 }
 .footer-container{
     display:flex;
     flex-direction: row;
     justify-content: center;
-    gap:7rem;
+    gap:5rem;
     color:white;
     margin-top: 2rem;
     margin-bottom:2rem;
@@ -453,11 +430,8 @@ footer li{
     list-style-type: none;
     line-height: 2.5rem;
 }
-.footer-container a{
-   color:white;
-}
 
-footer h3{
+footer h3, footer a{
     color:var(--white)
 }
 /* Language Options */
@@ -471,7 +445,6 @@ footer h3{
     color: var(--color-font);
     appearance: none;
     width:50px;
-
 }
 .language>i{
     font-size: 0.9rem;
@@ -493,6 +466,7 @@ header a:not(#no-an):hover{
     border-bottom:3px solid var(--dark);
     padding-bottoM:1.2rem;
 }
+/* buttons */
 .btn:not(.special)>a:hover{
     background-color: var(--color-button-hover);
 }

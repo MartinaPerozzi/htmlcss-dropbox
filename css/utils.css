@@ -17,37 +17,42 @@ scroll-behavior: smooth;
 .bg{
     background-color: var(--bg-color);
 }
-/*Others  */
+/*Containers*/
 .container-big {
 	width:100%;
 	margin: 0 auto;
 }
-	
+
 .column{
-    width:100%;
     max-width: 55rem;
     margin:6rem auto 2rem;
+}
+.w7{
+	width:70%;
+}
+.w3{
+	width:33%;
+}
+.w30{
+	width:30%;
+}
+/* Padding & Margin */
+.no-pd{
+	padding:0;
 }
 .no-mt{
 	margin-top:0;
 }
-.no-pd{
-	padding:0;
+.mr-1{
+	margin-right: 1rem;
 }
-/* button */
 .mt3{
-	margin: 0.3rem;
+	margin-top: 0.3rem;
 }
 .mt-b2{
 	margin-top: 2rem;
 }
 
-.w7{
-    width:70%;
-}
-.w3{
-    width:33%;
-}
 /* BUTTON*/
 .btn.start>a{
 	background-color: var(--color-button);
@@ -70,7 +75,6 @@ scroll-behavior: smooth;
     color:var(--white);
 }
 
-
 /* Text */
 a, p, cite{
     text-decoration: none;
@@ -80,11 +84,9 @@ a, p, cite{
 }
 
 p, cite{
-    font-size: 0.9rem;
     line-height:1.2rem;
 	font-style: normal;
 }
-
 
 /* Others */
 .clearfix::after {
