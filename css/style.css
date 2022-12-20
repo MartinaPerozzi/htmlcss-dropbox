@@ -280,7 +280,6 @@ h3{
 
 /* Mini-section 500.000 team*/
 .db-500{
-    max-width:55rem;
     margin:7rem auto 3rem;
     display:flex;
     flex-direction: column;

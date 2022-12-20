@@ -23,7 +23,7 @@ scroll-behavior: smooth;
 	margin: 0 auto;
 }
 
-.column{
+.container{
     max-width: 55rem;
     margin:6rem auto 2rem;
 }
