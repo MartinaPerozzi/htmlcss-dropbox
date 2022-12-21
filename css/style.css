@@ -29,8 +29,6 @@ header ul, header li{
     height:43rem;
 }
 .jumbotron-container{
-    width:100%;
-    max-width:70rem;
     display:flex;
     justify-content: center;
     margin: auto;
